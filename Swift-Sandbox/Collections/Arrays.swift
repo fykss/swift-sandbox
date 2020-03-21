@@ -1,5 +1,5 @@
 //
-//  main.swift
+//  Arrays.swift
 //  Swift-Sandbox
 //
 //  Created by Vladyslav Lietun on 21.03.2020.
@@ -7,6 +7,3 @@
 //
 
 import Foundation
-
-print("Hello, World!")
-
