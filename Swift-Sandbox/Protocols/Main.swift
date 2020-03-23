@@ -1,9 +1,17 @@
-//
-//  Main.swift
-//  Swift-Sandbox
-//
-//  Created by Vladyslav Lietun on 22.03.2020.
-//  Copyright © 2020 Vladyslav Lietun. All rights reserved.
-//
+protocol Flyable {
+  func fly() -> String
+}
 
-import Foundation
+class Airplane: Flyable {
+  
+  func fly() -> String {
+    return ("Airplane can fly")
+  }
+}
+
+class Bird: Flyable {
+  
+  func fly() -> String {
+    return ("Bird can fly too")
+  }
+}
