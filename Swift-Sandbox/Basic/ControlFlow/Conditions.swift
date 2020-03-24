@@ -1,5 +1,6 @@
 // Docs: https://docs.swift.org/swift-book/LanguageGuide/ControlFlow.html
 
+
 var isActive: Bool = true
 var user: String = "Bob"
 
@@ -29,10 +30,12 @@ var colorNameToUse = userDefinedColorName ?? defaultColorName
 // Switch statement
 let someCharacter: Character = "z"
 switch someCharacter {
-    case "a":
-        print("The first letter of the alphabet")
-    case "z":
-        print("The last letter of the alphabet")
-    default:
-        print("Some other character")
+case "a":
+    print("The first letter of the alphabet")
+case "z":
+    print("The last letter of the alphabet")
+default:
+    print("Some other character")
 }
+
+
