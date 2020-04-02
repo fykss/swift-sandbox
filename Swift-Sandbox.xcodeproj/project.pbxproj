@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E57156E2427E472000C3356 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E57156D2427E472000C3356 /* Protocols.swift */; };
+		9E5715702429229A000C3356 /* ProtocolDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E57156F2429229A000C3356 /* ProtocolDelegates.swift */; };
+		9E57157224293E87000C3356 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E57157124293E87000C3356 /* main.swift */; };
+		9E57159D2430CDB8000C3356 /* TypeCasting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E57159C2430CDB8000C3356 /* TypeCasting.swift */; };
+		9EB53E4D243621F200417C23 /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB53E4C243621F200417C23 /* ViewController1.swift */; };
 		9EDA4FE3242645690047B3FF /* Arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDA4FE2242645690047B3FF /* Arrays.swift */; };
 		9EDA4FE52426457A0047B3FF /* Dictionaries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDA4FE42426457A0047B3FF /* Dictionaries.swift */; };
 		9EDA4FE7242645860047B3FF /* Sets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDA4FE6242645860047B3FF /* Sets.swift */; };
@@ -14,8 +19,8 @@
 		9EDA4FEB242645A50047B3FF /* Optionals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDA4FEA242645A50047B3FF /* Optionals.swift */; };
 		9EDA4FED242645B10047B3FF /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDA4FEC242645B10047B3FF /* Strings.swift */; };
 		9EDA4FEF242645C20047B3FF /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDA4FEE242645C20047B3FF /* Closures.swift */; };
-		9EDA4FF1242645CD0047B3FF /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDA4FF0242645CD0047B3FF /* Main.swift */; };
-		9EDA4FF3242645DC0047B3FF /* Conditionals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDA4FF2242645DC0047B3FF /* Conditionals.swift */; };
+		9EDA4FF1242645CD0047B3FF /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDA4FF0242645CD0047B3FF /* Functions.swift */; };
+		9EDA4FF3242645DC0047B3FF /* Conditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDA4FF2242645DC0047B3FF /* Conditions.swift */; };
 		9EDA4FF5242645EC0047B3FF /* Loops.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDA4FF4242645EC0047B3FF /* Loops.swift */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +37,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9E57156D2427E472000C3356 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		9E57156F2429229A000C3356 /* ProtocolDelegates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolDelegates.swift; sourceTree = "<group>"; };
+		9E57157124293E87000C3356 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9E57159C2430CDB8000C3356 /* TypeCasting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeCasting.swift; sourceTree = "<group>"; };
+		9EB53E4C243621F200417C23 /* ViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
 		9EDA4FCC24263BA10047B3FF /* Swift-Sandbox */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Swift-Sandbox"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EDA4FDF24263F960047B3FF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9EDA4FE024263FAD0047B3FF /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
@@ -42,8 +52,8 @@
 		9EDA4FEA242645A50047B3FF /* Optionals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Optionals.swift; sourceTree = "<group>"; };
 		9EDA4FEC242645B10047B3FF /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
 		9EDA4FEE242645C20047B3FF /* Closures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Closures.swift; sourceTree = "<group>"; };
-		9EDA4FF0242645CD0047B3FF /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
-		9EDA4FF2242645DC0047B3FF /* Conditionals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conditionals.swift; sourceTree = "<group>"; };
+		9EDA4FF0242645CD0047B3FF /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		9EDA4FF2242645DC0047B3FF /* Conditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conditions.swift; sourceTree = "<group>"; };
 		9EDA4FF4242645EC0047B3FF /* Loops.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loops.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,6 +68,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9E57156C2427E45D000C3356 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				9E57156D2427E472000C3356 /* Protocols.swift */,
+				9E57156F2429229A000C3356 /* ProtocolDelegates.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		9E57159B2430CDA0000C3356 /* TypeCasting */ = {
+			isa = PBXGroup;
+			children = (
+				9E57159C2430CDB8000C3356 /* TypeCasting.swift */,
+			);
+			path = TypeCasting;
+			sourceTree = "<group>";
+		};
+		9EB53E4B243621D900417C23 /* AppLifeCycle */ = {
+			isa = PBXGroup;
+			children = (
+				9EB53E4C243621F200417C23 /* ViewController1.swift */,
+			);
+			path = AppLifeCycle;
+			sourceTree = "<group>";
+		};
 		9EDA4FC324263BA10047B3FF = {
 			isa = PBXGroup;
 			children = (
@@ -79,9 +114,12 @@
 		9EDA4FCE24263BA10047B3FF /* Swift-Sandbox */ = {
 			isa = PBXGroup;
 			children = (
+				9EB53E4B243621D900417C23 /* AppLifeCycle */,
+				9E57156C2427E45D000C3356 /* Protocols */,
 				9EDA4FD924263E6A0047B3FF /* Collections */,
 				9EDA4FD824263E5A0047B3FF /* ClassesStructures */,
 				9EDA4FD624263E4C0047B3FF /* Basic */,
+				9E57157124293E87000C3356 /* main.swift */,
 			);
 			path = "Swift-Sandbox";
 			sourceTree = "<group>";
@@ -99,6 +137,7 @@
 		9EDA4FD824263E5A0047B3FF /* ClassesStructures */ = {
 			isa = PBXGroup;
 			children = (
+				9E57159B2430CDA0000C3356 /* TypeCasting */,
 			);
 			path = ClassesStructures;
 			sourceTree = "<group>";
@@ -116,7 +155,7 @@
 		9EDA4FDA24263EE60047B3FF /* ControlFlow */ = {
 			isa = PBXGroup;
 			children = (
-				9EDA4FF2242645DC0047B3FF /* Conditionals.swift */,
+				9EDA4FF2242645DC0047B3FF /* Conditions.swift */,
 				9EDA4FF4242645EC0047B3FF /* Loops.swift */,
 			);
 			path = ControlFlow;
@@ -126,7 +165,7 @@
 			isa = PBXGroup;
 			children = (
 				9EDA4FEE242645C20047B3FF /* Closures.swift */,
-				9EDA4FF0242645CD0047B3FF /* Main.swift */,
+				9EDA4FF0242645CD0047B3FF /* Functions.swift */,
 			);
 			path = Functions;
 			sourceTree = "<group>";
@@ -199,12 +238,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EDA4FF1242645CD0047B3FF /* Main.swift in Sources */,
+				9EDA4FF1242645CD0047B3FF /* Functions.swift in Sources */,
+				9E57157224293E87000C3356 /* main.swift in Sources */,
 				9EDA4FE92426459B0047B3FF /* Main.swift in Sources */,
+				9E57156E2427E472000C3356 /* Protocols.swift in Sources */,
 				9EDA4FEF242645C20047B3FF /* Closures.swift in Sources */,
 				9EDA4FF5242645EC0047B3FF /* Loops.swift in Sources */,
+				9EB53E4D243621F200417C23 /* ViewController1.swift in Sources */,
 				9EDA4FE7242645860047B3FF /* Sets.swift in Sources */,
-				9EDA4FF3242645DC0047B3FF /* Conditionals.swift in Sources */,
+				9E5715702429229A000C3356 /* ProtocolDelegates.swift in Sources */,
+				9EDA4FF3242645DC0047B3FF /* Conditions.swift in Sources */,
+				9E57159D2430CDB8000C3356 /* TypeCasting.swift in Sources */,
 				9EDA4FE52426457A0047B3FF /* Dictionaries.swift in Sources */,
 				9EDA4FEB242645A50047B3FF /* Optionals.swift in Sources */,
 				9EDA4FE3242645690047B3FF /* Arrays.swift in Sources */,
