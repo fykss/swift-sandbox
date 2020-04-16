@@ -1,4 +1,3 @@
-
 protocol AdvancedLifeSupport {
     func performCPR()
 }
@@ -51,9 +50,9 @@ class Surgeon: Doctor {
     }
 }
 
-//let kate = EmergencyCallHandler()
-//let bob = Paramedic(handler: kate)
-//let vlad = Surgeon(handler: kate)
-//
-//kate.assessSituation()
-//kate.medicalEmergency()
+let kate = EmergencyCallHandler()
+let bob = Paramedic(handler: kate)
+let vlad = Surgeon(handler: kate)
+
+kate.assessSituation()
+kate.medicalEmergency()
