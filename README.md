@@ -1,3 +1,1 @@
 # Swift Foundation
-
-## Content
